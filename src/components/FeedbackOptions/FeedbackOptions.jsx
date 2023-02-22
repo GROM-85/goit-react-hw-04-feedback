@@ -9,8 +9,8 @@ export class FeedbackOptions extends Component {
     options: [],
     onLeaveFeedback: () => null,
   };
-  render() {
-    const {options} = this.props;
+  render(){
+    const {options,onLeaveFeedback} = this.props;
     return (
       <FeedbackCss>
         {options.map(option => (
@@ -18,7 +18,7 @@ export class FeedbackOptions extends Component {
             key={option.id}
             url={option.imageUrl}
             name={option.name} 
-            callback={this.props.onLeaveFeedback}
+            callback={onLeaveFeedback}
             />
         ))}
       </FeedbackCss>
