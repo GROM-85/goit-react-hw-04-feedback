@@ -1,0 +1,17 @@
+[
+  {
+    "id": "0",
+    "name": "bad",
+    "imageUrl": "https://assets.ccbp.in/frontend/react-js/sad-emoji-img.png"
+  },
+  {
+    "id": "1",
+    "name": "neutral",
+    "imageUrl": "https://assets.ccbp.in/frontend/react-js/none-emoji-img.png"
+  },
+  {
+    "id": "2",
+    "name": "good",
+    "imageUrl": "https://assets.ccbp.in/frontend/react-js/happy-emoji-img.png"
+  }
+]
