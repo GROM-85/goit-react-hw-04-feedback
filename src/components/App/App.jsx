@@ -17,7 +17,6 @@ export class App extends Component {
   countTotalFeedback = () => {
     let total = 0;
     for (let feedback of Object.values(this.state)) {
-      console.log(feedback);
       total += feedback;
     }
     return total;
@@ -28,7 +27,7 @@ export class App extends Component {
     return Math.ceil((good / this.countTotalFeedback()) * 100);
   };
 
-  onLeaveFeedback = e => {
+  onLeaveFeedback = (e) => {
     this.setState(prev => {
       let name = e.target.dataset.name;
       return {

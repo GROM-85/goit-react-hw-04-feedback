@@ -9,6 +9,7 @@ export class FeedbackOptions extends Component {
     options: [],
     onLeaveFeedback: () => null,
   };
+  
   render(){
     const {options,onLeaveFeedback} = this.props;
     return (
